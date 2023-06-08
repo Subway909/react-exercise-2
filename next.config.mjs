@@ -4,6 +4,15 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "media.rawg.io",
+        port: "",
+      },
+    ],
+  },
 }
 
 export default nextConfig
